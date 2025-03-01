@@ -50,6 +50,11 @@
     padding-left: 15px;
     font-size: medium;
     font-family: "Roboto","Arial", "sans-serif";
+    
+}
+.centernav>:nth-child(1):focus{
+    outline: none;
+    border: 1px solid #3ea6ff;
 }
 .centernav>:nth-child(2){
     width: 7%;
@@ -454,13 +459,13 @@
 
 @media screen and (min-width:320px) and (max-width:501px) {
     .navbar {
-        height: 2%;
-        width: 100%;
+        height: 5%;
+        width: 100vw;
         justify-content: left;
-        
+        gap: 5%;
     }
     .leftnav {
-        width: 8%;
+        width: 30%;
         height: 100%;
         margin-left: 1%;
         justify-content: left;
@@ -473,6 +478,7 @@
         height: 100%;
         margin-left: 0px;
         margin-right: 0px;
+        
     }
     .leftnav>:nth-child(2){
         height: 70%;
@@ -482,7 +488,7 @@
         justify-content: left;
         
         height: 80%;
-        width: 22%;
+        width: 40%;
     }
     .centernav>:nth-child(1) {
         width: 65%;
@@ -518,44 +524,203 @@
     .rightnav>:nth-child(2) {
         padding-right: 0px;
     }
+    .main {
+       height: 50%; 
+    }
     .logo {
-        /* margin-top: 5%; */
-        height: 5%;
-        width: 15%;
-        margin-top: 5%;
+        margin-top: 10%; 
+        height: 10%;
+        width: 30%;
+       
+    }
+    .logo>img{
+        height: 100%;
+        width: 100%;
     }
     .welcome {
-        height: 10%;
+        height: 20%;
         margin-top: 6%;
         justify-content: left;
-        font-size: 80%;
+        font-size: 70%;
     }
     .promosion {
-        height: 4%;
-        margin-top: 0.9%;
+        height: 10%;
+        margin-top: 6%;
         align-items: start;
         font-size: 7px;
     }
     .Subscribe {
-        height: 4%;
-        width: 40%;
+       margin-top: 2%;
+        height: 20px;
+        width: 30%;
     }
     .Subscribe>:nth-child(1) {
-        height: 100%;
-        width: 100%;
         background-color: #3ea6ff;
         border: none;
         border-radius: 40px;
         font-weight: 0px;
-        font-size: 70%;
+        font-size: 50%;
+        padding: 300px , 20px;
     }
     .trial {
-        /* margin-top: 35px; */
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        height: 20%;
+        gap: 30%;
+        height: auto;
         text-align: center;
+        margin-top: 2%;
+    }
+    .trial>p {
+        font-size: xx-small;
+    }
+    .trial>:nth-child(2) {
+        margin-top: 3%;
+        font-size: xx-small;
+    }
+    .cards {
+        margin-top: 8%;
+        height: 50%;
+        flex-direction: column;
+    }
+
+    
+    .A, .B, .C, .D {
+        justify-content: center;
+    }
+    .A>:nth-child(1), .B>:nth-child(1), .C>:nth-child(1), .D>:nth-child(1) {
+        height: 20%;
+        width: 20%;
+    }
+    .A>:nth-child(2), .B>:nth-child(2), .C>:nth-child(2), .D>:nth-child(2) {
+        padding-top: 5%;
+        font-size: 15%;
+    }
+    
+    .heading {
+        font-size: 50%;
+    }
+    .plan {
+        flex-direction: column;
+        align-items: center;
+    }
+    .indivisual, .family, .student {
+        width: 70%;
+    }
+    .indivisualh, .familyh, .studenth {
+        padding-top: 3%;
+        padding-left: 3%;
+        padding-bottom: 10px;
+        font-size: xx-small;
+    }
+    .indivisualbdy, .familybdy, .studentbdy {
+        font-size: xx-small;
+    }
+    .indivisualf, .familyf, .studentf {
+        
+        padding-top: 8%;
+        padding-bottom:3%;
+        
+    }
+    .indivisualf>button, .familyf>button, .studentf>button {
+        width: 85%;
+        height: 30px;
+        font-size: small;
+        font-weight: bold;
+    }
+    .playing {
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: xx-small;
+    }
+    .addfree-video, .offline-video, .background-play {
+        
+        width: 100%;
+        height: 45%;
+    }
+    .add-free-discription, .offline-video-discription, .background-play-discription {
+        height: 100%;
+        width: 100%;
+        margin-left: 8%;
+    }
+    .add-free-h, .offline-video-h, .background-play-h {
+        font-size: 40%;
+        margin-top: 0.1%;
+        line-height: 1;
+
+    }
+    .add-free-body, .offline-video-body, .background-play-body {
+        font-size: 20%;
+        line-height: 1.7;
+    }
+    .add-free-visuals, .offline-video-visuals, .background-play-visuals {
+        height: 100%;
+        width: 100%;
+    }
+    .add-free-visuals >img, .offline-video-visuals> img, .background-play-visuals > img{
+        height: 100%;
+        width: 100%;
+    }
+    .music {
+        height: 50%;
+    }
+    .music-discription {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    .music-discription-content {
+        padding-top: 7%;
+        padding-left: 15%;
+    }
+    .music-logo {
+        margin: 0%;
+        height: 15%;
+        width: 50%; 
+    }
+    .music-logo>img {
+        height: 100%;
+        width: 80%;
+    }
+    .music-h {
+        width: 100%;
+        height: 30%;
+        font-size: 45%;
+        padding-right:4%;
+    }
+    .music-body {
+        margin-top: 6%;
+        padding-right: 10%;
+        margin-bottom: 12%;
+        font-size: 30%;
+        line-height: 1.5;
+    }
+    .music-visuals {
+        height: 164px;
+    }
+    .music-visuals>img {
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .try-premium {
+        height: 50%;
+       
+    }
+    .try-premium-h {
+        font-size: 50%;
+        margin-bottom: 5%;
+    }
+    .try-premium-body {
+        font-size: 40%;
+    }
+    .try-premium-bt {
+        height: 10%;
+        width: 30%;
+        margin-bottom: 2%;
+    }
+    .try-premium-bt>button {
+        font-size: 50%;
+        padding: 5%;
+        margin: 10%;
+    }
+    .try-premium-termAndCondition {
+        font-size: 10%;
+        margin-bottom: 10%;
     }
 }

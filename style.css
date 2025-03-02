@@ -723,4 +723,277 @@
         font-size: 10%;
         margin-bottom: 10%;
     }
+    }
+    @media screen and (min-width:501px) and (max-width:768px) {
+        .navbar {
+            height: 6%;
+            width: 100vw;
+            justify-content: left;
+            gap: 5%;
+        }
+        .leftnav {
+            width: 30%;
+            height: 100%;
+            margin-left: 1%;
+            justify-content: left;
+            padding: 0%;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            gap: 8%;
+        }
+        .leftnav>:nth-child(1) {
+            height: 100%;
+            margin-left: 0px;
+            margin-right: 0px;
+            
+        }
+        .leftnav>:nth-child(2){
+            height: 70%;
+        }
+        .centernav {
+            
+            justify-content: left;
+            height: 80%;
+            width: 50%;
+        }
+        .centernav>:nth-child(1) {
+            width: 80%;
+            height: 70%; 
+            padding-left: 0px;
+            font-size: 7px;
+        }
+        .centernav>:nth-child(2) {
+            height: 75%;
+            width: 10%;
+            border-top-right-radius: 8px;
+            border-bottom-right-radius: 8px;
+        }
+        .centernav>:nth-child(3) {
+            margin-left: 5px;
+            padding: 0px;
+            width: 6%;
+            height: 82%;
+            border-radius: 50%;
+            background-color: rgb(39, 38, 38);
+        }
+        .rightnav {
+            height: 80%;
+            width: 1%;
+            gap: 20%;
+            justify-content: left;
+            
+        }
+        .rightnav>:nth-child(1) {
+            padding-left: 0px;
+            
+        }
+        .rightnav>:nth-child(2) {
+            padding-right: 0px;
+        }
+        .main {
+           height: 50%; 
+        }
+        .logo {
+            margin-top: 10%; 
+            height: 20%;
+            width: 40%;
+           
+        }
+        .logo>img{
+            height: 100%;
+            width: 100%;
+        }
+        .welcome {
+            margin-top: 6%;
+            justify-content: center;
+            font-size: xx-large;
+        }
+        .promosion {
+            height: 10%;
+            margin-top: 6%;
+            align-items: start;
+            font-size: 15px;
+        }
+        .Subscribe {
+           margin-top: 3%;
+            height: 40px;
+            width: 30%;
+        }
+        .Subscribe>:nth-child(1) {
+            background-color: #3ea6ff;
+            border: none;
+            border-radius: 40px;
+            font-weight: 0px;
+            font-size: 100%;
+            padding: 300px , 20px;
+        }
+        .trial {
+            gap: 40%;
+            height: auto;
+            text-align: center;
+            margin-top: 2%;
+        }
+        .trial>p {
+            font-size: small;
+        }
+        .trial>:nth-child(2) {
+            margin-top: 3%;
+            font-size: small;
+        }
+        .cards {
+            margin-top: 8%;
+            height: 50%;
+            flex-direction: column;
+        }
+    
+        
+        .A, .B, .C, .D {
+            justify-content: center;
+        }
+        .A>:nth-child(1), .B>:nth-child(1), .D>:nth-child(1) {
+            height: 20%;
+            width: 60%;
+        }
+        
+        .A>:nth-child(2), .B>:nth-child(2), .C>:nth-child(2), .D>:nth-child(2) {
+            padding-top: 5%;
+            font-size: 70%;
+        }
+        
+        .heading {
+            font-size: 100%;
+            padding-left: 25%;
+            padding-right: 25%;
+        }
+        .plan {
+            flex-direction: column;
+            align-items: center;
+        }
+        .indivisual, .family, .student {
+            width: 50%;
+            height: 210px;
+        }
+        .indivisualh, .familyh, .studenth {
+            padding-top: 3%;
+            padding-left: 3%;
+            padding-bottom: 10px;
+            font-size: small;
+        }
+        .indivisualbdy, .familybdy, .studentbdy {
+            font-size: small;
+        }
+        .indivisualf, .familyf, .studentf {
+            
+            padding-top: 10%;
+            padding-bottom:10%;
+            
+        }
+        .indivisualf>button, .familyf>button, .studentf>button {
+            width: 85%;
+            height: 30px;
+            font-size: small;
+            font-weight: bold;
+        }
+        .playing {
+            padding-left: 5%;
+            padding-right: 5%;
+            font-size: 80%;
+        }
+        .addfree-video, .offline-video, .background-play {
+            
+            width: 100%;
+            height: 45%;
+        }
+        .add-free-discription, .offline-video-discription, .background-play-discription {
+            height: 100%;
+            width: 100%;
+            margin-left: 8%;
+        }
+        .add-free-h, .offline-video-h, .background-play-h {
+            font-size: 55%;
+            margin-top: 0.1%;
+            line-height: 1;
+    
+        }
+        .add-free-body, .offline-video-body, .background-play-body {
+            font-size: 50%;
+            line-height: 1.7;
+        }
+        .add-free-visuals, .offline-video-visuals, .background-play-visuals {
+            height: 100%;
+            width: 100%;
+        }
+        .add-free-visuals >img, .offline-video-visuals> img, .background-play-visuals > img{
+            height: 100%;
+            width: 100%;
+        }
+        .music {
+            height: 250px;
+            padding: 10%;        
+        }
+        .music-discription {
+            height: 200px;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+        .music-discription-content {
+            padding-top: 9%;
+            padding-left: 12%;
+        }
+        .music-logo {
+            margin: 0%;
+            height: 15%;
+            width: 50%; 
+        }
+        .music-logo>img {
+            height: 100%;
+            width: 80%;
+        }
+        .music-h {
+            width: 100%;
+            height: 30%;
+            font-size: 60%;
+            padding-right:30%;
+            line-height: 1.2;
+        }
+        .music-body {
+            margin-top: 4%;
+            padding-right: 20%;
+            margin-bottom: 12%;
+            font-size: 50%;
+            line-height: 1.5;
+        }
+        .music-visuals {
+            height: 200px;
+        }
+        .music-visuals>img {
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+        .try-premium {
+            height: 50%;
+           
+        }
+        .try-premium-h {
+            margin-top: 5%;
+            font-size: 80%;
+            margin-bottom: 5%;
+        }
+        .try-premium-body {
+            font-size: 70%;
+        }
+        .try-premium-bt {
+            height: 15%;
+            width: 30%;
+            margin-bottom: 2%;
+        }
+        .try-premium-bt>button {
+            font-size: 70%;
+            padding: 5%;
+            margin: 10%;
+        }
+        .try-premium-termAndCondition {
+            font-size: 10%;
+            margin-bottom: 10%;
+        }
 }
